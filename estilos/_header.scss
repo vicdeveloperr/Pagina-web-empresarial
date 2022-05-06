@@ -1,0 +1,36 @@
+.header{
+    background-image: url("../multimedia/bg.jpg");
+    height: 100vh;
+    .container{
+        height: 100vh;
+    }
+}
+.navResponsive{
+    display: inline-block;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.presentacion{
+    height: 100%;   
+}
+.logo-img-container{
+    flex-shrink: 0;
+}
+@media (max-width: 363px){
+    .btn-caracteristicas{
+        margin-bottom: 10px;
+    }
+    .logo-img-container{
+        flex-shrink: 1;
+    }
+    .container{
+        width: 100% !important;
+    }
+}
+.icono-container{
+    flex-shrink: 0;
+}
+.card{
+    flex-shrink: 0;
+}

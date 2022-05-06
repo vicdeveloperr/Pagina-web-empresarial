@@ -1,0 +1,35 @@
+.precios{
+    background-image: url("../multimedia/precios-bg.jpg");
+}
+.btn-card1{
+    border-radius: 10px;
+}
+.card{
+    flex-grow: 1;
+    flex-shrink: 0;
+    border-radius: 5px;
+    min-width: 25%;
+    max-width: 30%;
+}
+
+@media screen and (max-width: 992px) {
+    .card{
+        max-width: 50%;
+        min-width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .card{
+        max-width: 70%;
+        min-width: 70%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .card{
+        max-width: 90%;
+        min-width: 90%;
+    }
+}
+
