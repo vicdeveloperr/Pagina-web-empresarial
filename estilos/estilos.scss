@@ -2,11 +2,4 @@
 @use "sectionInformaciones";
 @use "sectionPrecios";
 @use "clientesSatisfechos";
-@use "footer";
 @use "caracteristicas";
-body{
-    max-width: 100vw;
-}
-button{
-    transition: 1s;
-}
